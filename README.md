@@ -1,30 +1,36 @@
-# A ai powered story generator for children ages 3-10
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Features
+## Getting Started
 
-1. Can generate personalized bedtime stories with the click of a button.
-2. Can save a library of past stories and allow for character continuity across stories
-3. Can input details like a name, theme, or character traits for each story.
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Future Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Can save the generated story to a library
-2. future stories can be generated based on the previous story
-3. Multiple storylines are possible for one story
-4. Relevant child friendly images can be generated and added to the story
-5. Audio narration
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Tech Stack   
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. NextJS
-2. TailwindCSS
-3. Shadcn UI
-4. Lucid
-5. Vercel
-6. Claude API
-7. Replicate
-8. Vercel AI SDK
-9. Vercel AI SDK
+## Learn More
 
-#### Challenges
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
